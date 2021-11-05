@@ -1,0 +1,141 @@
+body{
+  font-family: "Montserrat-Black";
+}
+#title{
+  background-color: #FF5151;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navabar-brand{
+  font-size: 1.3em;
+  padding: 5px 5px;
+}
+h1{
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+.navbar{
+  padding-bottom: 90px;
+}
+.nav-item{
+  font-size: 1.3em;
+  padding: 5px 5px;
+}
+.dog-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 0.5%;
+  padding-left: 15%;
+}
+.download-btn{
+  margin: 2px 4px;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+h3{
+  font-family: "Montserrat-Bold";
+}
+.circle,.bullseye,.heart{
+  color: #FF5151;
+  margin-bottom: 1rem;
+}
+.circle:hover,.bullseye:hover,.heart:hover{
+  color: #8fffff;
+}
+#middle-page{
+  background-color: #FF5151;
+  text-align: center;
+  color: white;
+}
+.doggy{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+.lady{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#ads{
+  background-color: #FF5151;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#below-page{
+  padding-top: 10px;
+}
+/* .card-body{
+  background-color: skyblue;
+  text-align: center;
+}
+.card-header{
+  background-color: gold;
+  text-align: center;
+} */
+
+.card-deck{
+  text-align: center;
+}
+.card-text{
+  font-size: 2em;
+}
+#prices{
+  font-family: "Montserrat-Black";
+  padding: 100px;
+}
+.sign-up-btn{
+  justify-content: center;
+  margin: 7% 15%;
+}
+.pricing-col{
+  padding: 3%;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .dog-img{
+    position: static;
+    margin-top: 3%;
+    transform: rotate(0);
+  }
+}
+.hh{
+  color: white;
+  font-size: 4rem;
+}
+#cta{
+  background-color: #FF5151;
+  padding: 7% 15%;
+  text-align: center;
+}
+.b-boy{
+  margin: 3% 1%;
+}
+.footer{
+  color: gray;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icons{
+  color: black;
+  text-decoration: none;
+  margin: 20px 10px;
+}
